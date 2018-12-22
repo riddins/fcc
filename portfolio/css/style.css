@@ -1,0 +1,75 @@
+body {
+  color: #263238;
+  background-color: #ECEFF1;
+  padding-top: 70px
+}
+
+.jumbotron {
+  background-color: 		#CFD8DC
+}
+
+.navbar {
+  background-color: 	#607D8B;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: #ECEFF1
+}
+
+footer, footer a {
+  background-color: 	#263238;
+  color: #ECEFF1
+}
+
+hr.section-bar {
+  border-color: #263238;
+  max-width: 400px;
+}
+
+.row.is-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.flex-vcenter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-column-stretch {
+  display: flex;
+  align-items: stretch;
+}
+
+.tile, .tile .thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #B0BEC5;
+  background-color: #ECEFF1
+}
+
+.tile-top {
+  display: flex;
+  align-items: center; 
+  height: 125px;
+  margin-bottom: 5px; 
+}
+
+.tile-middle {
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.tile-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}

@@ -1,0 +1,119 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-gap: 10px;
+}
+
+#display{
+  display: grid;
+  border-style: solid;
+  grid-area: 1 / 1 / span 2 / span 4;
+  height: 50px;
+  text-align: right;
+}
+
+#entry{
+  font-size: x-large;
+  padding-right: 1%;
+}
+
+#equation{
+  padding-right: 1%;
+}
+
+.btn{
+  border-style: solid;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.btn.num{
+  background-color: orange;
+}
+
+.btn.operator{
+  background-color: lightgray;
+}
+
+.btn.func{
+  background-color: black;
+  color: white;
+}
+
+#one{
+  grid-area: 4/1;
+}
+
+#two{
+  grid-area: 4/2;
+}
+
+#three{
+  grid-area: 4/3;
+}
+
+#four{
+  grid-area: 5/1;
+}
+
+#five{
+  grid-area: 5/2;
+}
+
+#six{
+  grid-area: 5/3;
+}
+
+#seven{
+  grid-area: 6/1;
+}
+
+#eight{
+  grid-area: 6/2;
+}
+
+#nine{
+  grid-area: 6/3;
+}
+
+#zero{
+  grid-area: 7 / 1 / 7 / span 2;
+}
+
+#add{
+  grid-area: 3/4;
+}
+
+#subtract{
+  grid-area: 4/4;
+}
+
+#multiply{
+  grid-area: 5/4;
+}
+
+#divide{
+  grid-area: 6/4;
+}
+
+#equal{
+  grid-area: 7 / 4 / 7 / span 1;
+}
+
+#ac{
+  grid-area: 3/1;
+}
+
+#c{
+  grid-area: 3/2;
+}
+
+#decimal{
+  grid-area: 7 / 3;
+}
+
+#negate{
+  grid-area: 3 / 3;
+}

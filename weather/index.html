@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+  <div>
+    <h1 id="cityName"></h1></div>
+  <div><span><b>Date: </b></span><span id="dt"></span></div>
+  <div><span><b>Sunrise: </b></span><span id="sysSunrise"></span></div>
+  <div><span><b>Sunset: </b></span><span id="sysSunset"></span></div>
+</div>
+<div class="card text-center" id="cardWeather">
+  <div><span><b>WeatherMain: </b></span><span id="weatherMain"></span></div>
+  <div><span><b>WeatherDesc: </b></span><span id="weatherDesc"></span></div>
+  <div><img id="weatherIcon" src="#"></img>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <div class="card text-center" id="cardTemp">
+        <div><span><b>Temp: </b></span><span id="mainTemp"></span></div>
+        <div><span><b>TempMin: </b></span><span id="mainTempMin"></span></div>
+        <div><span><b>TempMax: </b></span><span id="mainTempMax"></span></div>
+        <div><button id="btnUnits"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card text-center" id="cardOther">
+        <div><span><b>Humidity: </b></span><span id="mainHumidity"></span></div>
+        <div><span><b>Pressure: </b></span><span id="mainPressure"></span></div>
+        <div><span><b>WindSpeed: </b></span><span id="windSpeed"></span></div>
+        <div><span><b>WindDeg: </b></span><span id="windDeg"></span></div>
+        <div><span><b>Rain: </b></span><span id="rain"></span></div>
+        <div><span><b>CloudsAll: </b></span><span id="cloudsAll"></span></div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

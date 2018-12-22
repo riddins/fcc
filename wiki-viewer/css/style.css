@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.grid .boxResult {
+  grid-column: 1 / span 3;
+}
+
+.grid .boxTitle{
+  grid-column: 2;
+}
+
+.resCard {
+  background: lightblue;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.resCard .title{
+  text-decoration: underline;
+}
+
+#divTitle{
+  display: flex;
+  justify-content: space-around;
+}
